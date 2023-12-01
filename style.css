@@ -659,6 +659,26 @@ body{
         font-size: .7rem;
     }
     .get-to-know{
-        font-size: .7rem;
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:690px){
+    .project, .project:nth-child(odd){
+        margin:3rem 5rem;
+    }
+    .card-data,.card-data-1{
+        margin: 0rem 0rem 0 2rem;
+        padding: 2rem 0 0 0rem
+        
+    }
+    .project-title{
+        font-size: 1.05rem;
+    }
+    .short-description{
+        font-size: .75rem;
+    }
+    .image-wrapper,.image-wrapper-1{
+        width: 90%;
     }
 }
