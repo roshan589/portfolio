@@ -664,6 +664,15 @@ body{
 
 }
 @media screen and (max-width:690px){
+    .logo h1{
+    display: none;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .about-skills{
+        flex-direction: column;
+    }
     .project, .project:nth-child(odd){
         margin:3rem 5rem;
     }
